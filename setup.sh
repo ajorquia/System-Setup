@@ -1,7 +1,7 @@
 #!/bin/bash
-sudo apt-get update
-sudo apt-get upgrade
+apt-get update
+apt-get upgrade
 
-sudo add-apt-repository ppa:nathan-renniewaldock/flux
-sudo apt-get update
-sudo apt-get install fluxgui
+add-apt-repository ppa:nathan-renniewaldock/flux
+apt-get update
+apt-get install fluxgui
