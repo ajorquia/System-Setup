@@ -18,9 +18,15 @@ apt install vim
 
 apt install chromium-browser
 
-add-apt-repository ppa:noobslab/themes
-add-apt-repository ppa:noobslab/icons
-apt update
-apt install arc-theme arc-icons
+#No longer necessary with new Mint dark theme. See below to automatically set theme.
+#add-apt-repository ppa:noobslab/themes
+#add-apt-repository ppa:noobslab/icons
+#apt update
+#apt install arc-theme arc-icons
 
-wget https://www.privateinternetaccess.com/installer/download_installer_linux 
+sudo apt install snapd
+sudo snap install mailspring
+
+#wget https://www.privateinternetaccess.com/installer/download_installer_linux 
+
+#https://superuser.com/questions/1270711/configure-themes-programmatically
