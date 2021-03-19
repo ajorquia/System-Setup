@@ -2,6 +2,16 @@
 apt update
 apt upgrade
 
+##Set theme
+THEME=Mint-Y-Dark-Teal
+
+gsettings set org.cinnamon.desktop.wm.preferences theme '$THEME'
+gsettings set org.cinnamon.desktop.interface cursor-theme 'DMZ-Black'
+gsettings set org.cinnamon.theme name 'THEME'
+gsettings set org.cinnamon.desktop.interface icon-theme '$THEME'
+gsettings set org.cinnamon.desktop.interface gtk-theme '$THEME'
+
+
 add-apt-repository ppa:nathan-renniewaldock/flux
 add-apt-repository ppa:videolan/stable-daily
 
@@ -15,15 +25,4 @@ apt install vim
 apt install chromium-browser
 
 ##Nextcloud: https://github.com/nextcloud/desktop/releases/
-
-#No longer necessary with new Mint dark theme. See below to automatically set theme.
-#add-apt-repository ppa:noobslab/themes
-#add-apt-repository ppa:noobslab/icons
-#apt install arc-theme arc-icons
-
-##sudo apt install snapd
-##sudo snap install mailspring
-
-#wget https://www.privateinternetaccess.com/installer/download_installer_linux 
-
-#https://superuser.com/questions/1270711/configure-themes-programmatically
+#wget https://www.privateinternetaccess.com/installer/download_installer_linux
