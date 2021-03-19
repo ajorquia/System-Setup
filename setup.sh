@@ -25,4 +25,8 @@ apt install vim
 apt install chromium-browser
 
 ##Nextcloud: https://github.com/nextcloud/desktop/releases/
-#wget https://www.privateinternetaccess.com/installer/download_installer_linux
+
+
+wget https://installers.privateinternetaccess.com/download/pia-linux-2.7.1-06182.run
+chmod +x pia-linux-2.7.1-06182.run
+./pia-linux-2.7.1-06182.run
