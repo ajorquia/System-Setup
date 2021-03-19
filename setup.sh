@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade -y
 
 ##Set theme
 THEME_COLOR="Mint-Y-Dark-Aqua"
@@ -20,17 +20,19 @@ sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ 
 
 apt update
 
-apt install fluxgui
-apt install htop
-apt install vlc
-apt install git
-apt install vim
-apt install chromium-browser
-apt install atom-beta
-
-##Nextcloud: https://github.com/nextcloud/desktop/releases/
-
+apt install fluxgui -y
+apt install htop -y
+apt install vlc -y
+apt install git -y
+apt install vim -y
+apt install chromium-browser -y
+apt install atom-beta -y
+apt install calibre -y
 
 wget https://installers.privateinternetaccess.com/download/pia-linux-2.7.1-06182.run
 chmod +x pia-linux-2.7.1-06182.run
 ./pia-linux-2.7.1-06182.run
+
+wget https://github.com/nextcloud/desktop/releases/download/v3.1.3/Nextcloud-3.1.3-x86_64.AppImage
+chmod +x Nextcloud-3.1.3-x86_64.AppImage
+./Nextcloud-3.1.3-x86_64.AppImage
