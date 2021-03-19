@@ -1,6 +1,6 @@
 #!/bin/bash
 apt update
-apt upgrade
+apt upgrade -y
 
 ##Set theme
 THEME=Mint-Y-Dark-Teal
@@ -17,12 +17,12 @@ add-apt-repository ppa:videolan/stable-daily
 
 apt update
 
-apt install fluxgui
-apt install htop
-apt install vlc
-apt install git
-apt install vim
-apt install chromium-browser
+apt install fluxgui -y
+apt install htop -y
+apt install vlc -y
+apt install git -y
+apt install vim -y
+apt install chromium-browser -y
 
 ##Nextcloud: https://github.com/nextcloud/desktop/releases/
 
